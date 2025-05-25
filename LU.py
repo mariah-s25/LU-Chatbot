@@ -11,7 +11,7 @@ from langchain_community.document_loaders import WebBaseLoader
 import chromadb
 
 #2. Set Up API Key for Google Gemini
-os.environ["GOOGLE_API_KEY"] = "AIzaSyA8gZZmHcw5VPPMkISi1jy61M47flND1iI"
+os.environ["GOOGLE_API_KEY"] = "......."
 GOOGLE_API_KEY = os.getenv("GOOGLE_API_KEY")
 
 if not GOOGLE_API_KEY:
